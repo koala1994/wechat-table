@@ -1,0 +1,78 @@
+{
+  "name": "wechat-table",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run serve",
+    "dev": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "commit": "git add . && git cz"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "axios": "^0.18.1",
+    "babel-plugin-component": "^1.1.1",
+    "css-loader": "^2.1.1",
+    "echarts": "^4.2.1",
+    "element-ui": "^2.11.1",
+    "file-saver": "^2.0.2",
+    "laydate": "^1.0.7",
+    "node-sass": "^4.12.0",
+    "nprogress": "^0.2.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "uri-js": "^4.2.2",
+    "urijs": "^1.19.1",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.1",
+    "vue-schart": "^1.0.0",
+    "vue-style-loader": "^4.1.2",
+    "vuex": "^3.1.1",
+    "vuex-along": "^1.2.5",
+    "whatwg-fetch": "^3.0.0",
+    "xlsx": "^0.15.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "loadsh": "0.0.4",
+    "qs": "^6.7.0",
+    "script-loader": "^0.7.2",
+    "shortid": "^2.2.14",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off",
+      "no-unused-vars": "off",
+      "no-redeclare": "off",
+      "no-undef": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

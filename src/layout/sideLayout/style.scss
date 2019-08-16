@@ -1,0 +1,46 @@
+
+.el-header {
+    background-color: #242f42;
+    line-height: 60px;
+  }
+  .el-menu {
+    border-right: none !important;
+  }
+  .el-main {
+    background-color: #f0f2f5;
+    color: #333;
+    text-align: center;
+    .content {
+      background: #fff;
+      min-height: 600px;
+    }
+  }
+  .el-footer {
+    background: #f0f2f5;
+     padding:0px !important;
+  }
+  .side-left {
+    margin-left: 200px;
+    height: 800px;
+  }
+  #side-nav{
+    color: #333;
+    position: fixed;
+    transition: width 0.35s;
+    left: 0px;
+    text-align: left;
+    overflow: hidden;
+    width:200px;
+  }
+  .hideSideBar {
+    .side-left {
+      margin-left: 48px;
+    }
+    .el-menu--collapse,#side-nav {
+      width: 48px;
+      overflow: hidden;
+    }
+    .el-submenu__title,.sub-item {
+      padding-left: 16px !important;
+    }
+  }
