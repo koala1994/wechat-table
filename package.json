@@ -32,7 +32,7 @@
     "vuex": "^3.1.1",
     "vuex-along": "^1.2.5",
     "whatwg-fetch": "^3.0.0",
-    "xlsx": "^0.15.1"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
