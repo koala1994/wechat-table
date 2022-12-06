@@ -42,7 +42,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "loadsh": "0.0.4",
-    "qs": "^6.7.0",
+    "qs": "^6.7.3",
     "script-loader": "^0.7.2",
     "shortid": "^2.2.14",
     "vue-template-compiler": "^2.6.10"
